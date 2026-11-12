@@ -1,0 +1,13 @@
+[package]
+name = "ct-scalar"
+version = "0.0.2"
+edition = "2024"
+description = "Scalar-field trait and shared logic for constant-time cryptography"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/power-system/ct-scalar"
+readme = "README.md"
+
+[dependencies]
+ct-fp = { version = "0.0.2", default-features = false }
+ct-uint = { version = "0.0.3", default-features = false }
+subtle = { version = "2.6.1", default-features = false }
